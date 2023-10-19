@@ -1,0 +1,65 @@
+header {
+    background-color: rgb(250, 215, 236);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(226, 102, 179);
+    font-size: 50px;
+}
+
+.option-header {
+    text-align: right;
+    border: 3px solid rgb(192, 119, 131);
+    margin-left: 25px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.option-header:hover {
+    background-color: rgb(226, 102, 179);
+    color: black;
+}
+
+#buscar{
+text-align: right;
+}
+
+#productos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+#productos p {
+    text-align: center justify;
+    font-size: 30px;
+}
+
+#productos h3 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+img {
+    width: 300px;
+}
+
+.tarjetafoto {
+    border: solid 3px pink;
+}
+
+.footer {
+    background-color: rgb(250, 215, 236);
+}
+
+#nosotros p {
+    text-align: center;
+    font-size: 25px;
+
+}
+.direccion {
+    text-align: center;
+}
