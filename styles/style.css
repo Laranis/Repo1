@@ -2,6 +2,7 @@ header {
     background-color: rgb(250, 215, 236);
 }
 
+
 h1 {
     text-align: center;
     color: rgb(226, 102, 179);
@@ -66,8 +67,3 @@ img {
 }
 
 
-@media (min-width:992px) {
-    .option-header {
-         
-    }
-}
