@@ -9,6 +9,7 @@ h1 {
 }
 
 .option-header {
+    flex-wrap: wrap;
     text-align: right;
     border: 3px solid rgb(192, 119, 131);
     margin-left: 25px;
@@ -62,4 +63,11 @@ img {
 }
 .direccion {
     text-align: center;
+}
+
+
+@media (min-width:992px) {
+    .option-header {
+         
+    }
 }
