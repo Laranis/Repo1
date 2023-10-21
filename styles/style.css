@@ -7,6 +7,8 @@ h1 {
     text-align: center;
     color: rgb(226, 102, 179);
     font-size: 50px;
+    font-style: italic; 
+    text-decoration: underline;
 }
 
 .option-header {
@@ -67,3 +69,11 @@ img {
 }
 
 
+.carousel {
+    width: 40%;
+}
+
+.contenedor {
+     display: flex;
+     justify-content: center;
+}
