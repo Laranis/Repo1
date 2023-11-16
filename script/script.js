@@ -18,8 +18,6 @@ console.log(saludo);
 
 
 
-let miElemento2 = document.getElementById("elemento");
-miElemento2.style.backgroundColor = "pink";
 
 
 
