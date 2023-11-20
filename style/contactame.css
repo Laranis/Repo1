@@ -21,9 +21,10 @@ text-align: center;
 }
 
 #texto {
-
     text-align: center;  
     font-size: 20px;
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 #gracias {
@@ -34,11 +35,29 @@ text-align: center;
 
 #contactame {
     display: flex;
-    line-height: 10px;
-display: inline;
+    flex-direction: column;
+align-items: center;
 text-align: center;
 font-style: italic;
+line-height: 10px;
+margin: 0 auto;
+max-width: 300px;
+margin-bottom: 20px;
 }
+
+
+#contactame label {
+margin-bottom: 10px;
+}
+
+#contactame select,
+#contactame textarea,
+#contactame input{
+margin-bottom: 10px;
+padding: 10px;
+}
+
+
 .footer {
     background-color: rgb(255, 161, 218);
 }
